@@ -1,0 +1,5 @@
+matplotlib==3.0
+Pillow
+pycodestyle
+numpy==1.15
+python3-tk
