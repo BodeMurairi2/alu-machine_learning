@@ -6,17 +6,19 @@ This modules contains helpers functions
 import numpy as np
 import matplotlib.pyplot as plt
 
-def simple_plot(y:np.array):
+
+def simple_plot(y: np.array):
     """
     This function plot a simple red plot
     Args:
-        y:np.array 
+        y:np.array
     """
     y_coord = [0, 500, 1000]
     plt.plot(y, color="red")
     plt.yticks(y_coord)
 
-def change_scale(x:np.array,y:np.array):
+
+def change_scale(x: np.array, y: np.array):
     """
     This function plots x and y
     Args:
@@ -30,7 +32,8 @@ def change_scale(x:np.array,y:np.array):
     plt.ylabel("Fraction Remaining")
     plt.title("Exponential Decay of C-14")
 
-def scatter_plot(x:np.array, y:np.array):
+
+def scatter_plot(x: np.array, y: np.array):
     """
     This function plot a scatter plot
     Args:
@@ -42,7 +45,8 @@ def scatter_plot(x:np.array, y:np.array):
     plt.xlabel("Height (in)")
     plt.title("Men's Height vs Weight")
 
-def plot_2_lines(x:np.array,y1:np.array,y2:np.array):
+
+def plot_2_lines(x: np.array, y1: np.array, y2: np.array):
     """
     plot two lines
     Args:
@@ -62,7 +66,8 @@ def plot_2_lines(x:np.array,y1:np.array,y2:np.array):
 
     plt.legend()
 
-def plot_frequency(x:np.array):
+
+def plot_frequency(x: np.array):
     """
     Plot histogram showing frequency
     Args:

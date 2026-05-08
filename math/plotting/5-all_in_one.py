@@ -60,6 +60,7 @@ plot_2_lines(x=x3, y1=y31, y2=y32)
 plt.subplot2grid((3, 2), (2, 0), colspan=2)
 plot_frequency(x=student_grades)
 
-# rect top=0.96 reserves space for suptitle; h_pad adds vertical spacing between rows
+# rect top=0.96 reserves space for suptitle;
+# h_pad adds vertical spacing between rows
 plt.tight_layout(rect=[0, 0, 1, 0.96], h_pad=4)
 plt.show()
