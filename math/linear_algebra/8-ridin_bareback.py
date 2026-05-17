@@ -4,7 +4,7 @@ This module computes matrix multiplication
 """
 
 
-def matrix_mult(mat1, mat2):
+def mat_mul(mat1, mat2):
     """Multiplies two matrices and returns the result as a new matrix."""
     if not mat1 or not mat2:
         raise ValueError("Input matrices cannot be empty")
