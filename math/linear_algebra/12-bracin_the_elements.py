@@ -2,9 +2,9 @@
 """
 This module computes addition, substraction, multiplication and division
 """
-import numpy as np
 
-def np_elementwise(mat1:np.ndarray, mat2:np.ndarray):
+
+def np_elementwise(mat1, mat2):
     """
     This function adds, subs, mult, and divide
     """
