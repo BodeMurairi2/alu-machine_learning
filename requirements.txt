@@ -1,5 +1,5 @@
-matplotlib==3.0
+matplotlib>=3.9
 Pillow
-pycodestyle
-numpy==1.15
-python3-tk
+pycodestyle==2.5
+numpy>=1.26
+scipy>=1.13
