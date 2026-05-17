@@ -4,10 +4,7 @@
 This module adds two list(element wise)
 """
 
-from typing import List, Union
-
-
-def add_arrays(arr1: List[Union[int, float]], arr2: List[Union[int, float]]):
+def add_arrays(arr1, arr2):
     """
     This function adds two arrays
     Args:
