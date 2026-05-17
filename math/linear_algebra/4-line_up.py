@@ -4,6 +4,7 @@
 This module adds two list(element wise)
 """
 
+
 def add_arrays(arr1, arr2):
     """
     This function adds two arrays
@@ -17,7 +18,7 @@ def add_arrays(arr1, arr2):
     row_b = len(arr2)
     arr3 = []
     if row_a != row_b:
-        return None
+        return []
 
     if not isinstance(arr1[0], list) and not isinstance(arr2[0], list):
         for i, j in zip(arr1, arr2):
@@ -28,7 +29,7 @@ def add_arrays(arr1, arr2):
     dim_b = [row_b, len(arr2[0])]
 
     if dim_a != dim_b:
-        return None
+        return []
 
     for i, j in zip(arr1, arr2):
         arr3.append([a + b for a, b in zip(i, j)])
